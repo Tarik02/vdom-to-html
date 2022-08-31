@@ -1,5 +1,5 @@
 {
-  "name": "vdom-to-html",
+  "name": "@tarik02/vdom-to-html",
   "description": "Turn virtual-dom nodes into HTML",
   "version": "2.3.1",
   "author": "Nathan Tran <ntran013@gmail.com>",
