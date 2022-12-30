@@ -46,7 +46,7 @@ function createAttribute(name, value, isAttribute) {
 function shouldSkip(name, value) {
   var attrType = properties[name];
   return value == null ||
-    (attrType === types.BOOLEAN && !value) ||
+    (attrType === types.BOOLEAN && !value && value !== '') ||
     (attrType === types.OVERLOADED_BOOLEAN && value === false);
 }
 
